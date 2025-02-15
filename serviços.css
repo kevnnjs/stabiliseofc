@@ -104,56 +104,56 @@
 
 .swiper-slide.slide-1 {
     
-    background-image: url('photos/homem-massage.jpg');
+    background-image: url('homem-massage.jpg');
 }
 
 .swiper-slide.slide-2 {
     
-    background-image: url('photos/massagem-pedras.jpg');
+    background-image: url('massagem-pedras.jpg');
 }
 
 .swiper-slide.slide-3 {
     
-    background-image: url('photos/massagem\ alongamento.jpg');
+    background-image: url('massagem\ alongamento.jpg');
 }
 
 .swiper-slide.slide-4 {
-    background-image: url('photos/massagem-ventosa.jpg');
+    background-image: url('massagem-ventosa.jpg');
 
 }
 
 .swiper-slide.slide-5 {
-    background-image: url('photos/massagem-terapeutica.webp');
+    background-image: url('massagem-terapeutica.webp');
 
 }
 
 .swiper-slide.slide-6 {
-    background-image: url('photos/liberaçao-miofacial.jpg');
+    background-image: url('liberaçao-miofacial.jpg');
 
 }
 
 .swiper-slide.slide-7 {
-    background-image: url('photos/thai-massage.webp');
+    background-image: url('thai-massage.webp');
 
 }
 
 .swiper-slide.slide-8 {
-    background-image: url('photos/combo-liberaçao+relax.jpg');
+    background-image: url('combo-liberaçao+relax.jpg');
 
 }
 
 .swiper-slide.slide-9 {
-    background-image: url('photos/drenagem-linfatica.jpg');
+    background-image: url('drenagem-linfatica.jpg');
 
 }
 
 .swiper-slide.slide-10 {
-    background-image: url('photos/massagem-modeladora.avif');
+    background-image: url('massagem-modeladora.avif');
 
 }
 
 .swiper-slide.slide-11 {
-    background-image: url('photos/terapia.webp');
+    background-image: url('terapia.webp');
 
 }
 
@@ -221,7 +221,7 @@
     height: 90%;
     width: 100%;
     height: 500px; /* Ajuste conforme necessário */
-    background-image: url('photos/funcionamento.webp');
+    background-image: url('funcionamento.webp');
     background-size: cover;
     background-position: center;
     border-radius: 8px;
