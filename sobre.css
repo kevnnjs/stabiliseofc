@@ -1,0 +1,58 @@
+.sobre {
+    background-color: #fff;
+
+    padding: 80px 5%;
+    text-align: center;
+}
+
+.sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.sobre-texto {
+    flex: 1;
+    text-align: left;
+}
+
+.sobre-texto h2 {
+    font-size: 2.5rem;
+    color: #444; /* Cor da identidade visual */
+    margin-bottom: 15px;
+}
+
+.sobre-texto span {
+    color: #a18462; /* Dourado da identidade */
+}
+
+.sobre-texto p {
+    font-size: 1.2rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.sobre-imagem {
+    flex: 1;
+}
+
+.sobre-imagem img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 480px) {
+    .sobre-container{
+    flex-direction: column;
+    }
+
+    .sobre-texto h2{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,61 @@
+.btn{
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.btn:hover{
+    transform: scale(1.1);
+    color: #d5d4d4;
+}
+
+#header-btn{
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+#home .btn {
+    margin-top: 15px;
+    
+}
+
+
+
+.btn-map{
+    text-align: center;
+    background-color: var(--bg-color);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border: 1px solid ;
+    padding-inline: 15px;
+    border-radius: 5px;
+    color: rgb(161, 132, 98, 1);
+}
+
+.btn-map:hover{
+    transform: scale(1.1);
+    color: rgb(146, 120, 91);
+}
+
+.footer-btn{
+    color: var(--text-color);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.footer-btn:hover{
+    transform: scale(1.1);
+}

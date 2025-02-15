@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+#saibamais {
+    display: flex;
+    margin: 15px 5%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content-saiba {
+    display: grid;
+    grid-template-columns: repeat(3, 0.4fr);
+    align-items: center;
+    max-width: 100%;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: column;
+    min-height: 20rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-inline: 1rem;
+    gap: 2rem;
+}
+
+.bloco i{
+    font-size: 2rem;
+}
+
+.bloco h2{
+    font-family: "Montserrat", serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+}
+
+.bloco p{
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    margin-inline: 2rem;
+    font-size: 0.90rem;
+    font-style: normal;
+    width: 100%;
+    max-width: 60       rem;
+}
+
+/* Aplica imagem de fundo nos blocos ímpares */
+.bloco:nth-child(1) {
+    background-image: url('photos/more1.jpg'); /* Substitua pelo caminho correto */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.bloco:nth-child(3) {
+    background-image: url('photos/more2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.bloco:nth-child(5) {
+    background-image: url('photos/more3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.bloco:nth-child(2),
+.bloco:nth-child(4),
+.bloco:nth-child(6) {
+    background-color: white;
+}
+
+
+.image {
+    width: 100%;
+}
+
+.text {
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+@media (max-width: 800px) {
+
+    .content-saiba {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bloco{
+        display: flex;
+        justify-content: center;
+        max-width: 20rem;
+    }
+    
+}
