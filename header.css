@@ -52,7 +52,7 @@
     background-color: #d4a373;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .navbar{
         display: none;
     }
@@ -62,7 +62,7 @@
     }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 600px) {
     .btn-abrir-menu {
         display: none;
     }
