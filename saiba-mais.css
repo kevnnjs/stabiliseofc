@@ -50,21 +50,21 @@
 
 /* Aplica imagem de fundo nos blocos ímpares */
 .bloco:nth-child(1) {
-    background-image: url('photos/more1.jpg'); /* Substitua pelo caminho correto */
+    background-image: url('more1.jpg'); /* Substitua pelo caminho correto */
     background-size: cover;
     background-position: center;
     color: white;
 }
 
 .bloco:nth-child(3) {
-    background-image: url('photos/more2.jpg');
+    background-image: url('more2.jpg');
     background-size: cover;
     background-position: center;
     color: white;
 }
 
 .bloco:nth-child(5) {
-    background-image: url('photos/more3.jpg');
+    background-image: url('more3.jpg');
     background-size: cover;
     background-position: center;
     color: white;
