@@ -50,8 +50,8 @@
 }
 
 
-/* 🔽 Ajustes para telas menores que 480px */
-@media (max-width: 480px) {
+/* 🔽 Ajustes para telas menores que 600px */
+@media (max-width: 600px) {
     .footer {
         flex-direction: column-reverse;
         align-items: center;
